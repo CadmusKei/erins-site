@@ -1,5 +1,8 @@
 import Title from "./components/Title";
 import Divider from "./components/Divider";
+import CV from "./components/CV";
+import Contact from "./components/Contact";
+import Bio from "./components/Bio";
 
 export default function Home() {
   return (
@@ -17,50 +20,11 @@ export default function Home() {
       </div>
       <div className="flex flex-col space-y-5 items-center pt-5 h-screen w-full bg-[#111111e0] z-10">
         <Divider />
-        <div className="w-[75%] flex flex-col space-y-5 items-center">
-          <img
-            className=" w-[75%] aspect-square rounded-full"
-            src="/image/erin.jpeg"
-          ></img>
-          <p className="font-bold">
-            Erin Salo is a Physics student at The University of The Western Cape
-            (UWC) and a writer. She plans on specialising in the field of
-            Astrophysics with a particular interest in Dark Matter.
-          </p>
-        </div>
+        <Bio/>
         <Divider />
-        <Title size="text-6xl">CV</Title>
-        <div className="w-[75%] mt-5 flex flex-col space-y-5 items-center">
-          <p>
-            Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
-            consectetur eiusmod nulla minim veniam. Nulla proident id irure
-            commodo velit mollit Lorem. Ea consectetur Lorem non qui nisi et
-            nulla dolore aute. Veniam nisi eiusmod elit commodo reprehenderit
-            voluptate sunt.  
-          </p>
-          <p>
-            Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
-            consectetur eiusmod nulla minim veniam. Nulla proident id irure
-            commodo velit mollit Lorem. Ea consectetur Lorem non qui nisi et
-            nulla dolore aute. Veniam nisi eiusmod elit commodo reprehenderit
-            voluptate sunt. Adipisicing incididunt magna eiusmod magna sunt ex
-            magna deserunt. 
-          </p>
-          <p>
-            Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
-            consectetur eiusmod nulla minim veniam. Nulla proident id irure
-            commodo velit mollit Lorem. Ea consectetur Lorem non qui nisi et
-            nulla dolore aute. Veniam nisi eiusmod elit commodo reprehenderit
-            voluptate sunt. Adipisicing incididunt magna eiusmod magna sunt ex.
-
-          </p>
-        </div>
+        <CV/>
         <Divider />
-        <Title size="text-6xl">Contact</Title>
-        <div className="w-[75%] mt-3 flex flex-col space-y-5 items-center">
-          <p>Email: erinsalo6@gmail.com</p>
-          <p>Phone Number: 079 540 8160</p>
-        </div>
+        <Contact/>
         <Divider />
         <div className="w-full min-h-10"></div>
       </div>
