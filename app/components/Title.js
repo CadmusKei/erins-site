@@ -5,6 +5,6 @@ const imperialScript = Imperial_Script({
   weight: "400",
 });
 
-export default function Title({children}){
-    return(<h1 className={`${imperialScript.className} text-7xl text-shadow-lg text-shadow-black`}>{children}</h1>)
+export default function Title({size, children}){
+    return(<h1 className={`${imperialScript.className} ${size} text-shadow-lg text-shadow-black`}>{children}</h1>)
 }
