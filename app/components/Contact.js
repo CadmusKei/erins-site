@@ -4,7 +4,7 @@ export default function Contact(){
     return(
         <>
             <Title size="text-6xl">Contact</Title>
-            <div className="w-[75%] mt-3 flex flex-col space-y-5 items-center">
+            <div className="w-[75%] mt-1 flex flex-col p-5 space-y-5 items-center border-2 border-neutral-700 rounded-xl">
                 <p>Email: erinsalo6@gmail.com</p>
                 <p>Phone Number: 079 540 8160</p>
             </div>
