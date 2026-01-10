@@ -29,39 +29,33 @@ export default function Home() {
           </p>
         </div>
         <Divider />
-        <Title size="text-5xl">CV</Title>
-        <div className="w-[75%] flex flex-col space-y-5 items-center">
+        <Title size="text-6xl">CV</Title>
+        <div className="w-[75%] mt-5 flex flex-col space-y-5 items-center">
+          <p>
+            Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
+            consectetur eiusmod nulla minim veniam. Nulla proident id irure
+            commodo velit mollit Lorem. Ea consectetur Lorem non qui nisi et
+            nulla dolore aute. Veniam nisi eiusmod elit commodo reprehenderit
+            voluptate sunt.  
+          </p>
           <p>
             Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
             consectetur eiusmod nulla minim veniam. Nulla proident id irure
             commodo velit mollit Lorem. Ea consectetur Lorem non qui nisi et
             nulla dolore aute. Veniam nisi eiusmod elit commodo reprehenderit
             voluptate sunt. Adipisicing incididunt magna eiusmod magna sunt ex
-            magna deserunt. Sint reprehenderit eu cillum ipsum ullamco nostrud
-            non reprehenderit ex officia qui quis. Mollit incididunt aliquip
-            reprehenderit nostrud exercitation culpa excepteur consequat duis
-            dolor laborum labore deserunt. 
-            
-            Veniam consectetur laborum ullamco
-            consectetur in labore irure. Aute ipsum ipsum nulla nisi. Magna
-            nostrud occaecat irure cillum magna aute sit minim dolor dolore
-            laborum ipsum nostrud in. Incididunt magna ut in exercitation quis
-            dolore duis reprehenderit tempor cupidatat cupidatat dolor. Velit do
-            ipsum velit esse anim irure ad adipisicing ea enim sunt fugiat amet.
-            Cupidatat minim aliquip aute nostrud incididunt Lorem culpa
-            voluptate ex aliqua mollit. 
-            
-            Anim incididunt deserunt labore sunt ad
-            irure ullamco irure qui occaecat voluptate incididunt fugiat ut. Est
-            labore id cupidatat exercitation. Aliquip esse et laborum do tempor
-            duis velit qui occaecat nostrud labore enim. Anim et officia ad esse
-            esse ex enim culpa enim excepteur esse. Commodo Lorem adipisicing
-            consequat reprehenderit. Aliqua esse aute minim minim sunt veniam
-            exercitation consequat velit. Fugiat sit anim excepteur consectetur
-            qui adipisicing quis labore excepteur ipsum. Tempor pariatur mollit
-            elit non eiusmod culpa pariatur.
+            magna deserunt. 
+          </p>
+          <p>
+            Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
+            consectetur eiusmod nulla minim veniam. Nulla proident id irure
+            commodo velit mollit Lorem. Ea consectetur Lorem non qui nisi et
+            nulla dolore aute. Veniam nisi eiusmod elit commodo reprehenderit
+            voluptate sunt. Adipisicing incididunt magna eiusmod magna sunt ex.
+
           </p>
         </div>
+        <Divider />
       </div>
     </div>
   );
