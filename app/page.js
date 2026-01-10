@@ -1,6 +1,7 @@
 import Title from "./components/Title";
 import Divider from "./components/Divider";
 import CV from "./components/CV";
+import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Bio from "./components/Bio";
 
@@ -23,6 +24,8 @@ export default function Home() {
         <Bio/>
         <Divider />
         <CV/>
+        <Divider />
+        <Blog/>
         <Divider />
         <Contact/>
         <Divider />
