@@ -62,6 +62,7 @@ export default function Home() {
           <p>Phone Number: 079 540 8160</p>
         </div>
         <Divider />
+        <div className="w-full min-h-10"></div>
       </div>
     </div>
   );
