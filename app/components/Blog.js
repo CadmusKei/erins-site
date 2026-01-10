@@ -32,7 +32,7 @@ export default function Blog() {
   return (
     <>
       <Title size="text-6xl">Blog</Title>
-      <div className="w-[75%] mt-5 space-y-3 flex flex-col items-center">
+      <div className="w-[90%] p-5 space-y-3 flex flex-col items-center border-2 border-neutral-700 rounded-2xl">
         {blogposts.map((blogpost) => (
           <Blogpost
             key={blogpost.id}
