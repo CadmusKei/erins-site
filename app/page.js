@@ -17,10 +17,9 @@ export default function Home() {
       ></div> */}
 
       <div className="flex justify-center items-center min-h-[40%] w-full bg-linear-to-t from-[#111111e0] to-transparent z-10">
-        <Title size="text-7xl">Erin Salo</Title>
+        <Title size="text-7xl lg:text-9xl">Erin Salo</Title>
       </div>
       <div className="flex flex-col space-y-5 items-center pt-5 h-screen w-full bg-[#111111e0] z-10">
-        <Divider />
         <Bio/>
         <Divider />
         <CV/>

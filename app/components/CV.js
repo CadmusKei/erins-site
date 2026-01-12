@@ -4,7 +4,7 @@ export default function CV(){
     return(
         <>
             <Title size="text-6xl">CV</Title>
-            <div className="w-[75%] mt-5 flex flex-col space-y-5 items-center">
+            <div className="w-[75%] lg:w-[50%] flex flex-col space-y-5 items-center">
             <p>
                 Cupidatat eiusmod ad quis elit ullamco tempor ea velit do
                 consectetur eiusmod nulla minim veniam. Nulla proident id irure
