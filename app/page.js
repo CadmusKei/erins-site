@@ -5,6 +5,8 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Bio from "./components/Bio";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="relative flex flex-col items-center w-full h-screen">
@@ -17,7 +19,9 @@ export default function Home() {
       ></div> */}
 
       <div className="flex justify-center items-center min-h-[40%] w-full bg-linear-to-t from-[#111111e0] to-transparent z-10">
-        <Title size="text-7xl lg:text-9xl">Erin Salo</Title>
+        <Link href="/postblog/">
+          <Title size="text-7xl lg:text-9xl">Erin Salo</Title>
+        </Link>
       </div>
       <div className="flex flex-col space-y-5 items-center pt-5 h-screen w-full bg-[#111111e0] z-10">
         <Bio/>
