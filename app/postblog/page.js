@@ -12,7 +12,6 @@ import { useState, useRef, useEffect } from "react";
 export default function BlogPost() {
   const [mounted, setMounted] = useState(false);
 
-  
   const [signedIn, SetSignedIn] = useState(false);
   const [blogHTML, setBlogHTML] = useState('');
 
@@ -20,7 +19,6 @@ export default function BlogPost() {
   const passwordRef = useRef(null);
 
   const titleRef = useRef(null);
-  const blogRef = useRef(null);
 
   useEffect(() => {
     setMounted(true);
