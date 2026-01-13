@@ -12,12 +12,19 @@ export default function BlogPost() {
     const [ signedIn, SetSignedIn ] = useState(false); 
 
     const userRef = useRef(null);
+    const passwordRef = useRef(null);
 
     function handleClick()
     {
         console.log("Signing in...")
 
-        SetSignedIn(true);
+        const username = userRef.current.value; 
+        const password = passwordRef.current.value; 
+
+        if (username === "marcie" && password === "moonwitch") console.log("Batman!")
+        
+
+        // SetSignedIn(true);
     }
 
     if (!signedIn) {
@@ -29,7 +36,6 @@ export default function BlogPost() {
                     src="/image/Space.jpg"
                 ></img>
 
-
                 <div className="flex flex-col items-center w-[80%] h-[70%] mt-35 rounded-md bg-neutral-950 z-10
                 shadow-black shadow-2xl p-5 space-y-2">
 
@@ -39,7 +45,7 @@ export default function BlogPost() {
                     <input ref={userRef} type="text" className="pl-4 w-[70%] h-[8%] border-2 rounded-md mt-2" ></input>
 
                     <p className="text-2xl text-white font-bold mt-5 " >Password</p>
-                    <input type="password" className="pl-4 w-[70%] h-[8%] border-2 rounded-md mt-2" ></input>
+                    <input ref={passwordRef} type="password" className="pl-4 w-[70%] h-[8%] border-2 rounded-md mt-2" ></input>
 
                     <button onClick={handleClick} className="w-[70%] h-[9%] mt-10 bg-white rounded-md text-black font-bold text-2xl" >Sign-In</button>
 
